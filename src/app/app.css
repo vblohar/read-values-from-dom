@@ -1,5 +1,18 @@
 .appContainer {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.subContaner{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
+

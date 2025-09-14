@@ -1,0 +1,8 @@
+<div class="box">
+    <h3>Reactive Forms (FormControl / FormGroup)</h3>
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <input type="text" formControlName="city">
+        <button type="submit">Save</button>
+    </form>
+    <div>{{cityName}}</div>
+</div>
