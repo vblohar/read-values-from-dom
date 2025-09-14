@@ -1,0 +1,8 @@
+<div class="box1">
+    <h3>Template Reference Vaiable(#var)</h3>
+      <input type="text" #enteredText>
+    <button (click)="print(enteredText.value)">Click</button><br><br>
+    <input type="text" (change)="printONChange($event)" #enteredText>
+    <button  >change</button>
+    <div>{{inputText}}</div>
+</div>
