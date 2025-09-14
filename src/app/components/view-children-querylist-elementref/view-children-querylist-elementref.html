@@ -1,0 +1,9 @@
+<div class="box">
+    <h3>@ViewChildren - QueryList - ElementRef (Multiple elements)</h3>
+    <input #field type="text">
+    <input #field type="text">
+    <button (click)="addField()">show</button>
+    <div *ngFor="let name of names">{{name}}
+
+    </div>
+</div>
